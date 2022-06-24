@@ -1,5 +1,5 @@
 # Bin2Dec
 
-This is an app idea from this [repo](https://github.com/florinpop17/app-ideas)
+I got the project idea from this [repo](https://github.com/florinpop17/app-ideas)
 
-Binary to decimal converter build with HTML and JavaScript.
+This website will help you to convert from binary number to decimal
