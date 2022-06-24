@@ -27,5 +27,5 @@ btnConvert.addEventListener("click", () => {
         const binary = Number.parseInt(binaryInput.value[i]);
         result += binary * 2 ** (7 - i);
     }
-    resultEl.textContent = result;
+    resultEl.textContent = `the result is: ${result}`;
 });
