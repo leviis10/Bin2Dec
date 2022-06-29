@@ -1,0 +1,30 @@
+{
+    "name": "bin2dec",
+    "version": "1.0.0",
+    "description": "I got the project idea from this [repo](https://github.com/florinpop17/app-ideas)",
+    "main": "script.js",
+    "scripts": {
+        "dev": "concurrently npm:start-server npm:watch-ts",
+        "build-ts": "tsc",
+        "start-server": "live-server",
+        "watch-ts": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leviis10/Bin2Dec.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leviis10/Bin2Dec/issues"
+    },
+    "homepage": "https://github.com/leviis10/Bin2Dec#readme",
+    "devDependencies": {
+        "concurrently": "^7.2.2",
+        "live-server": "^1.2.2"
+    },
+    "dependencies": {
+        "typescript": "^4.7.4"
+    }
+}
